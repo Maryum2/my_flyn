@@ -185,7 +185,7 @@ flutter run
 - Set unique **Bundle Identifier**  
 - Enable **Automatically manage signing**
   
-  ```bash
+```bash
   cd ios
   pod install
   flutter run
