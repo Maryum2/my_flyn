@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:my_flyn/views/basic_info/basic_info_view.dart';
+import 'package:my_flyn/views/profile/basic_info_view.dart';
 import 'package:my_flyn/views/compaigns/compaigns_list_view.dart';
 import 'package:my_flyn/views/home/home_view.dart';
 import 'package:my_flyn/views/misc/placeholder_view.dart';
-import 'package:my_flyn/views/password_settings/password_settings_view.dart';
+import 'package:my_flyn/views/profile/password_settings_view.dart';
 import 'package:my_flyn/views/profile/my_info_view.dart';
 import 'package:my_flyn/views/splash/splash_view.dart';
 
