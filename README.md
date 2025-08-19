@@ -60,11 +60,14 @@ lib/
       permissions_controller.dart
     profile/
       profile_controller.dart
+    home/
+      home_controller.dart
   core/
     bindings/
       initial_bindings.dart
     components/
       common_app_bar.dart
+      common_compaign_cards.dart
       common_text_field.dart
       primary_button.dart
   resources/
@@ -85,11 +88,8 @@ lib/
       my_info_view.dart
       basic_info_view.dart
       password_settings_view.dart
-      interests_view.dart
     misc/
-      notice_view.dart
-      faq_view.dart
-      terms_view.dart
+      placeholder_view.dart
 main.dart
 ```
 
@@ -146,10 +146,10 @@ Obx(() => PrimaryButton(
 
 ## 📱 Screens Implemented
 
-- **Home** → Greeting, camera button, My Campaign status card, menu list  
+- **Home** → Greeting, Camera button, My Campaign status card, menu list  
 - **Campaign List** → 3-tab strip, campaign rows, bottom fade overlay  
-- **My Info** → Basic Info, Password Settings, Interests  
-- **Misc** → Notice, FAQ, Terms (placeholders)
+- **My Info** → Basic Info, Password Settings  
+- **Misc** → Notice, FAQ, Terms And Policies, Interests (placeholders)
 
 ---
 
@@ -184,6 +184,13 @@ flutter run
 - Open `ios/Runner.xcworkspace` in Xcode  
 - Set unique **Bundle Identifier**  
 - Enable **Automatically manage signing**
+  
+  ```bash
+  cd ios
+  pod install
+  flutter run
+```
+  
 
 ---
 
